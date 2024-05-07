@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+// 包名称
+package grpctest;
+
+// 定义一个服务
+service GrpcService {
+  rpc testGrpc (itemId) returns (Info);
+}
+
+message itemId {
+  int32 id = 1;
+}
+
+message Info {
+  int32 id = 1;
+  string name = 2;
+}

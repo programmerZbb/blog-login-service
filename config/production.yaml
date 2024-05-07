@@ -1,0 +1,3 @@
+JWT_SECRET:
+  secret: 'blog_secret'
+  refresh_secret: 'blog_refresh_secret'

@@ -1,0 +1,2 @@
+export const REDIS_CLIENT = 'MY_REDIS_CLIENT';
+export const REDIS_CLIENT_ASYNC = 'REDIS_CLIENT_ASYNC';

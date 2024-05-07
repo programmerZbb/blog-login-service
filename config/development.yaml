@@ -1,0 +1,18 @@
+MYSQL:
+  host: 127.0.0.1
+  port: 8091
+  password: qazplm
+  username: root
+
+REDIS:
+  host: 127.0.0.1
+  port: 8093
+  password: qazplm
+JWT_SECRET:
+  secret: 'blog_secret'
+  refresh_secret: 'blog_refresh_secret'
+ETCD:
+  hosts: 'http://127.0.0.1:8088'
+  auth:
+    username: root
+    password: qazplm
